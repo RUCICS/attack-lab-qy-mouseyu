@@ -16,11 +16,11 @@ chmod +x problem1 problem2 problem3 problem4
 
 # ================= 任务一：反汇编 =================
 echo -e "${GREEN}[*] 正在反汇编二进制文件...${NC}"
-objdump -d problem1 > disassembly_prob1.txt
-objdump -d problem2 > disassembly_prob2.txt
-objdump -d problem3 > disassembly_prob3.txt
-objdump -d problem4 > disassembly_prob4.txt
-echo "    -> 反汇编已保存为 disassembly_probX.txt"
+objdump -d problem1 > disassembly_prob1.asm
+objdump -d problem2 > disassembly_prob2.asm
+objdump -d problem3 > disassembly_prob3.asm
+objdump -d problem4 > disassembly_prob4.asm
+echo "    -> 反汇编已保存为 disassembly_probX.asm"
 
 # ================= 任务二 & 三：生成 Payload 并攻击 =================
 
